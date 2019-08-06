@@ -1,0 +1,10 @@
+debuglevel = 0
+version = 3
+server_host = temeria.lan
+bind_dn = cn=reader,dc=continent,dc=org
+bind_pw = WhanUtjuchsigErHobocokok3
+search_base = ou=users,dc=continent,dc=org
+search_scope = subtree
+query_filter = (|(uid=%u)(mail=%u@%d))
+result_attribute = uid
+cache = no

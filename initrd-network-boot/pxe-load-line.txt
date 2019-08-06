@@ -1,0 +1,4 @@
+label ubuntu¶                                                                                                           
+19 >.......menu label Openstack compute (Ubuntu 16.04)¶                                                                    
+20 >.......kernel /distr/liveos/openstack-compute/vmlinuz¶                                                                 
+21 >.......append loglevel=7 kernel.printk=8 console=ttyS0,115200 ip=dhcp boot=nfs netboot=nfs biosdevname=0 net.ifnames=0 netconsole=6665@10.7.5.254/eth0,6666   @10.7.5.2/06:fe:a5:32:99:a9 root=/dev/nfs nfsroot=10.7.5.2:/srv/share/nfs/openstack-compute/base.rootfs deltaimages=10.7.5.2:/srv/share/nfs/openstack-comput   e/deltaimages bootiface=eth0 initrd=/distr/liveos/openstack-compute/initrd.img systemd.journald.forward_to_console=1 systemd.log_level=debug systemd.log_tar   get=kmsg log_buf_len=1M live-config.timezone=Europe/Moscow -- 
