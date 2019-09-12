@@ -1,0 +1,2 @@
+mdadm --create --verbose --level=6 --bitmap=none --metadata=1.2 --homehost=kaedwen --raid-devices=8 /dev/md/box1 /dev/sd{cdefghij}1
+mkfs.ext4 -v -L box1 -m 0.01 -b 4096 -E stride=128,stripe-width=768 /dev/md127
