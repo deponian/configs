@@ -1,0 +1,4 @@
+ip link add link vlanbr10 vlanbr10.254 type vlan proto 802.1Q id 254
+ip addr add 10.10.254.144/24 brd 10.10.254.255 dev vlanbr10.254
+ip link set vlanbr10.254 up
+
